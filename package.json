@@ -2,11 +2,11 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "complete node js ",
-  "main": "chat.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon chat.js",
-    "start-server": "nodemon chat.js"
+    "start": "nodemon app.js",
+    "start-server": "nodemon app.js"
   },
   "author": "shilpa mulge",
   "license": "ISC",
