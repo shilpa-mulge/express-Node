@@ -2,11 +2,11 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "complete node js ",
-  "main": "serverForm.js",
+  "main": "chat.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon serverForm.js",
-    "start-server": "nodemon app.js"
+    "start": "nodemon chat.js",
+    "start-server": "nodemon chat.js"
   },
   "author": "shilpa mulge",
   "license": "ISC",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "body-parser": "^1.20.2",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "node-localstorage": "^2.2.1"
   }
 }
